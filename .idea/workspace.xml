@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8100dabf-8d56-4b24-8e76-50c2c897eb25" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/css/main.css" />
+  </component>
+  <component name="ProjectId" id="1baRwwPVF6rxEi2z4QpxMVn4Okv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8100dabf-8d56-4b24-8e76-50c2c897eb25" name="Default Changelist" comment="" />
+      <created>1588868460080</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588868460080</updated>
+      <workItem from="1588868470507" duration="24000" />
+      <workItem from="1588869792238" duration="208000" />
+      <workItem from="1588870026211" duration="74000" />
+      <workItem from="1588870120227" duration="439000" />
+      <workItem from="1588870588080" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="141" y="39" key="SettingsEditor" timestamp="1588870417276">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1588870417276" />
+    <state x="384" y="251" key="cloudConfig.PluginsDialog" timestamp="1588870092734">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="384" y="251" key="cloudConfig.PluginsDialog/0.0.1280.800@0.0.1280.800" timestamp="1588870092734" />
+  </component>
+</project>
