@@ -27,26 +27,18 @@ body{
 
 header {
   width: 100%;
-  background: transparent;
+  background: rgba(0, 0, 0, 0);
   background-size: cover;
 }
 
-.content {
-  width: 94%;
-  margin: 4em auto;
-  font-size: 20px;
-  line-height: 30px;
-  text-align: justify;
-}
-
 .logo {
-  line-height: 60px;
+  /* line-height: 60px; */
   position: fixed;
   float: left;
   margin: 16px 46px;
   color: black;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 26px;
   letter-spacing: 2px;
 }
 .logo a{
@@ -57,11 +49,11 @@ header {
 nav {
   position: fixed;
   width: 100%;
-  line-height: 60px;
+  /* line-height: 60px; */
 }
 
 nav ul {
-  line-height: 60px;
+  /* line-height: 60px; */
   list-style: none;
   background: rgba(0, 0, 0, 0);
   overflow: hidden;
@@ -89,7 +81,7 @@ nav ul li a {
 }
 
 .menu-icon {
-  line-height: 60px;
+  /* line-height: 60px; */
   width: 100%;
   background: #000;
   text-align: right;
