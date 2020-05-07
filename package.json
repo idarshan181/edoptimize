@@ -1,7 +1,6 @@
 {
   "name": "web1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "directories": {
     "doc": "doc"
@@ -12,5 +11,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idarshan181/edoptimize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/idarshan181/edoptimize/issues"
+  },
+  "homepage": "https://github.com/idarshan181/edoptimize#readme",
+  "description": ""
 }
