@@ -1,31 +1,147 @@
-/*! HTML5 Boilerplate v7.3.0 | MIT License | https://html5boilerplate.com/ */
 
-/* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+:root,*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
 }
+body{
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  color: #7f7f7f;
+}
 
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
+/* Header Area // Navbar */
+
+
+
+
+header {
+  width: 100%;
+  background: transparent;
+  background-size: cover;
+}
+
+.content {
+  width: 94%;
+  margin: 4em auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.logo {
+  line-height: 60px;
+  position: fixed;
+  float: left;
+  margin: 16px 46px;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.logo a{
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+}
+
+nav ul {
+  line-height: 60px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: black;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: #000;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 24px;;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: #000;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: white;
+  display: none;
+}
+
+@media(max-width: 786px) {
+
+  .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+  }
+  .logo a{
+    text-decoration: none;
+    color: white;
+  }
+
+  nav ul {
+        max-height: 0px;
+        background: #000;
+
+  }
+
+  nav.black ul {
+        background: #000;
+  }
+
+  .showing {
+        max-height: 34em;
+  }
+
+  nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+  }
+  nav ul li a{
+    color: white;
+  }
+  .menu-icon {
+        display: block;
+  }
+
+}
+
+
 
 ::-moz-selection {
   background: #b3d4fc;
