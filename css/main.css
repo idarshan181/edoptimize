@@ -180,7 +180,6 @@ nav ul li a:active{
   grid-template-rows: 1fr;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 .box{
   color:white;
@@ -223,11 +222,14 @@ nav ul li a:active{
   grid-gap: 20px;
   justify-content: space-evenly;
   text-align: center;
-  align-items: stretch;
-  grid-template-columns: repeat(auto-fit,minmax(200px,250px));
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit,minmax(200px,200px));
 }
 .research{
   border: 1px solid black;
+  height: 10em;
+  width: 100%;
   margin-top: 36px;
 }
 
@@ -465,4 +467,48 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
+}
+
+.area-padding {
+  padding: 80px 0;
+}
+
+
+.area-heading {
+  margin-bottom: 90px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.area-heading h3 {
+  font-size: 30px;
+  color: #1d1d1d;
+  position: relative;
+}
+
+.area-heading p {
+  font-size: 14px;
+  color: #7f7f7f;
+}
+
+.area-heading .line:after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 5px;
+  background: #f84b67;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -16px;
+}
+
+.area-heading .line:before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  background: #f84b67;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -14px;
 }
