@@ -163,7 +163,7 @@ nav ul li a:active{
 }
 
 .main_banner .banner_inner .overlay {
-  background: url(../assets/img/banner/banner_grad.jpg) no-repeat scroll center center;
+  background: url(../assets/background/gradient_bg1.jpg) no-repeat scroll center center;
   position: absolute;
   left: 0;
   right: 0;
