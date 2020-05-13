@@ -173,8 +173,6 @@ nav ul li a:active {
 .main_banner .banner_inner .overlay {
   background-color: #29539b;
   background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
-
-  /* background: url(../assets/background/gradient_bg1.jpg) no-repeat scroll center center; */
   position: absolute;
   left: 0;
   right: 0;
@@ -230,6 +228,8 @@ nav ul li a:active {
   max-height: 316px;
 }
 
+/* Research Section Inside Main Banner */
+
 .research_banner {
   text-align: center;
   justify-content: center;
@@ -249,19 +249,13 @@ nav ul li a:active {
 }
 
 .research {
-  /* border: 1px solid lightgray; */
   outline: thick;
   height: 80%;
   width: 90%;
   margin: 2em auto;
-  /* box-shadow: 0 0 10px #9ecaed; */
-  background-color:transparent;
+  background-color: transparent;
   box-shadow: 20px 20px 50px 0 rgba(30, 58, 111, 0.9),
     -30px -30px 60px 0 rgba(30, 58, 111, .6);
-  /* background: transparent;
-  box-shadow: 20px 20px 50px 0 rgba(0, 0, 0, 0.2),
-    -1px -1px 16px 0 rgba(255, 255, 255, 0.55); */
-  /* border-radius: 50px; */
   border-radius: 10px;
   padding: 4px 30px 20px 20px;
 }
@@ -394,7 +388,6 @@ textarea {
   position: absolute;
   white-space: nowrap;
   width: 1px;
-  /* 1 */
 }
 
 /*
