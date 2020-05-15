@@ -117,17 +117,9 @@ nav ul li a:active {
 .main_banner {
   position: relative;
   z-index: 1;
-  min-height: 990px;
-  /* max-height: 600px; */
 }
 
-.main_banner .banner_inner {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  min-height: 990px;
-  /* margin-top: -40px; */
-}
+
 
 .main_banner .banner_inner .overlay {
   background-color: #29539b;
@@ -136,29 +128,40 @@ nav ul li a:active {
   left: 0;
   right: 0;
   top: 0;
-  background-size: cover;
+  background-size: contain;
+
   height: 100%;
   width: 100%;
   bottom: 0;
   z-index: -1;
 }
-.main_banner .banner_inner .container{
-  /* position: relative;
-  margin-top: -3em; */
+
+.main_banner .banner_inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height:800px;
+  margin-bottom: 0em;
+
 }
+
 
 .main_banner .banner_inner .container .row {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  /* grid-template-rows: repeat(auto-fit,minmax(100px,300px)); */
+  /* grid-template-rows: 1fr; */
   justify-content: center;
   align-items: center;
 }
 
 .box {
   color: white;
-  margin-top: -8em;
+}
+.image-box img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main_banner .banner_inner .banner_content h2 {
@@ -202,10 +205,8 @@ nav ul li a:active {
 }
 
 .main_banner .research_banner .container .area-heading h1{
-  /* margin-bottom: 2em; */
   margin-top: -1em;
   font-size: 2em;
-
 }
 
 .main_banner .research_banner .container .row {
@@ -219,7 +220,7 @@ nav ul li a:active {
   outline: thick;
   height: 80%;
   width: 90%;
-  margin: 2em auto;
+  margin: 1em auto;
   background-color: transparent;
   box-shadow: 20px 20px 50px 0 rgba(30, 58, 111, 0.9),
     -30px -30px 60px 0 rgba(30, 58, 111, .6);
@@ -254,7 +255,7 @@ nav ul li a:active {
 }
 
 .solution-area{
-  margin-top: -4em;
+  /* margin-top: 40px; */
 }
 
 .solution-heading{
