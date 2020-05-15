@@ -254,15 +254,38 @@ nav ul li a:active {
   width: 1.1em;
 }
 
-.solution-area{
-  /* margin-top: 40px; */
-}
 
 .solution-heading{
   margin: 1em 0 1em -0.8em;
-
 }
 
+/* .toolkits .row{
+  justify-content: space-around;
+} */
+
+.tools{
+  /* display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+  justify-content: space-evenly; */
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin: auto;
+
+}
+.tools .tool-image{
+  width: 250px;
+}
+
+.tools .tool-image img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.engine{
+  margin-top: 2em;
+}
 /* Blog Card CSS */
 /* ======================== */
 
