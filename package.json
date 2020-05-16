@@ -7,7 +7,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "browser-sync start --server --files \"*.html, css/*.css\""
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --port 7878 --browser 'Firefox Developer Edition'"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +20,8 @@
     "url": "https://github.com/idarshan181/edoptimize/issues"
   },
   "homepage": "https://github.com/idarshan181/edoptimize#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  }
 }
