@@ -69,7 +69,7 @@
 
 	/* End service Area css
 	============================================================================================ */
-	
+
 	.footer-area .single-footer-widget input {
 		padding: 10px 8px;
 	}
@@ -88,11 +88,11 @@
 		margin-bottom: 23px;
 	}
 	.header_area .navbar {
-		background: #000;
+		background: #fff;
 	}
 
 	.navbar_fixed.header_area .navbar {
-		background: rgba(0,0,0,0.7);
+		/* background: rgba(0,0,0,0.7); */
 	}
 	.navbar-toggler[aria-expanded="false"] span:nth-child(2) {
 		opacity: 1;
@@ -160,7 +160,7 @@
 		margin-top: 78px;
 	}
 	.banner_content {
-		background: rgba(0,0,0,.5);
+		/* background: rgba(0,0,0,.5); */
 		padding: 20px;
 	}
 	/* End Main Menu Area css
@@ -192,9 +192,18 @@
 		display: none;
 	}
 	.image-box {
-		text-align: center;
-		margin-bottom: 30px;
-	}
+    text-align: center;
+    margin-bottom: 30px;
+    height: 321px;
+}
+.landing-image{
+  border: 5px solid white;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
 	/* Contact Page Area css
 	============================================================================================ */
 	.contact_info{
@@ -219,7 +228,7 @@
 	}
 	/* End End Footer Area css
 	============================================================================================ */
-	
+
 
 
 	.single-blog .meta-top a {
@@ -403,7 +412,7 @@
 	}
 	/* End Elements Area css
 	============================================================================================ */
-	
+
 	/* Blog Page Area css
 	============================================================================================ */
 	.blog_details h2 {
@@ -474,7 +483,7 @@
 	}
 	/* End Main Menu Area css
 	============================================================================================ */
-	
+
 	/* Home Banner Area css
 	============================================================================================ */
 	.home_banner_area .banner_inner .banner_content {
@@ -500,7 +509,7 @@
 	.comments-area .thumb {
 		margin-right: 10px;
 	}
-	
+
 	/* End Blog Page Area css
 	============================================================================================ */
 	.video_area .popup-youtube img {
