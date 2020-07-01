@@ -130,7 +130,7 @@ nav ul {
   line-height: 50px;
   list-style: none;
   overflow: hidden;
-  color: white;
+  color: #5F6368;
   padding: 0;
   text-align: right;
   margin-bottom: 10px;
@@ -155,7 +155,7 @@ nav ul li a {
   font-family: "Open Sans";
   font-weight: 600;
   font-size: 15px;
-  color: #5F6368;
+  color: inherit;
   letter-spacing: 1.3px;
   text-align: center;
 }
@@ -414,11 +414,13 @@ nav ul li a {
   font-family: "Exo", sans-serif;
   font-weight: 600;
   display: block;
+  float: right;
   margin: 1em auto;
-  text-align: center;
+  text-align: left;
   font-size: 30.8px;
   color: #11223F;
   line-height: 33px;
+  width: 50%;
 }
 
 .card__content {
@@ -1075,10 +1077,11 @@ textarea {
     margin-top: 16px;
   }
 
-  .logo a {
+  nav .logo a span {
     text-decoration: none;
-    color: white;
+    color: #fff;
   }
+
 
   nav {
     margin: auto;
