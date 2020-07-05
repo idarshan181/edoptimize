@@ -210,7 +210,7 @@ nav ul li a {
 .main_banner .banner_inner .container .row {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-content: center;
   align-items: center;
 }
@@ -508,10 +508,10 @@ nav ul li a {
 }
 
 .engine__container {
-  overflow: visible;
   display: flex;
   width: 100%;
   height: 252px;
+  overflow: scroll;
   box-shadow: 0 10px 22px 0 rgba(49, 69, 244, 0.10);
 }
 
@@ -558,6 +558,7 @@ nav ul li a {
   font-size: 17.6px;
   line-height: 33px;
   padding: 12px 31px;
+  flex: 1 1 auto;
   /* padding: 1.5em; */
 }
 
@@ -580,7 +581,7 @@ nav ul li a {
 }
 
 
-#engine{
+#engine {
   background-color: #fff !important;
 }
 
@@ -607,17 +608,21 @@ nav ul li a {
 
 }
 
+/* === === === === === === === ===  */
 /* Service Section */
-.service__section{
+/* === === === === === === === === */
+.service__section {
   margin-top: 2em;
 }
-.service__section .container{
+
+.service__section .container {
   background-color: #F3F7FF;
 }
 
 #service__heading {
   margin-top: 2em;
 }
+
 #service__heading h4 {
   display: inline-block;
   font-family: "Exo", sans-serif;
@@ -626,6 +631,203 @@ nav ul li a {
   color: #000000;
   letter-spacing: 0.48px;
 }
+
+.service_cards {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+  background-color: black;
+}
+
+.s-card {
+  background-color: #0069b3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  font-size: 70px;
+  color: white;
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+/* === === === === === === === */
+
+/* Pricing CSS */
+/* === === === === === === === */
+
+
+.pricing__section {
+  margin-top: 2em;
+}
+
+
+.pricing__section .container {
+  background-color: white;
+}
+
+.pricing__section .container .row {
+  margin: auto;
+  text-align: center;
+}
+
+#pricing__heading {
+  margin: 2em 0;
+}
+
+#pricing__heading h4 {
+  display: inline-block;
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
+  font-size: 46px;
+  color: #000000;
+  letter-spacing: 0.48px;
+}
+
+.prices {
+  width: 100%;
+  display: -webkit-box;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-content: space-between;
+}
+
+.price__items {
+  max-width: 352px;
+}
+
+.price {
+  height: 360px;
+  margin-bottom: 1em;
+}
+
+.price__title {
+  background-color: #F3F7FF;
+  height: 132px;
+  width: 100%;
+  padding: 20px 22px;
+}
+
+.title_center {
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
+  display: block;
+  padding: 31px 10px;
+  text-align: center;
+  font-size: 30.8px;
+  color: #11223F;
+  line-height: 33px;
+  height: 88px;
+  width: 308px;
+}
+
+#ai {
+  /* height: fit-content; */
+  padding: 5px;
+}
+
+#ds {
+  /* height: fit-content; */
+  padding: 10px;
+}
+
+#di {
+  padding: 20px;
+}
+
+.price__content {
+  display: block;
+  text-align: center;
+  margin: 26px 26px auto 26px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 17.6px;
+  height: 228px;
+  color: #11223F;
+  line-height: 33px;
+}
+
+.price_tag {
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
+  font-size: 30.8px;
+  line-height: 33px;
+  text-align: center;
+  margin: 1em 0 0.5em 0;
+}
+
+.price__btn {
+  display: block;
+  border-radius: 4px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600 !important;
+  font-size: 16px;
+  letter-spacing: 2.54px;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  margin-top: 24px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+/* === === === === === === === */
+
+/* Get In Touch Section CSS */
+
+/* === === === === === === === */
+
+.contact_section {
+  margin-top: 100px;
+  background-color: #2E7DF7;
+  min-height: 200px;
+  max-height: 357px;
+  color: white;
+}
+
+#contact__heading {
+  margin: 2em 0;
+}
+
+#contact__heading h4 {
+  margin-top: 1em;
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
+  max-height: 61px;
+  font-size: 46px;
+  color: #FFFFFF;
+  letter-spacing: 0.48px;
+  text-align: center;
+}
+
+.contact__btn {
+  background: #FFFFFF;
+  box-shadow: 0 6px 22px 0 rgba(0, 0, 0, 0.20);
+  border-radius: 4px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  width: 208px;
+  height: 50px;
+  color: #1A67FA;
+  letter-spacing: 2.54px;
+  text-align: center;
+  margin-top: 2em;
+}
+
+/* === === === === === === === */
+
+/* === === === === === === === */
+
+
 
 /* === === === === === === === */
 
