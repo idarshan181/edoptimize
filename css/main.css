@@ -57,6 +57,14 @@ body {
   width: 208px;
 }
 
+.small{
+  width:80px;
+  height: 40px;
+}
+.mtop{
+  margin-top: 25px;
+}
+
 .regular {
   color: #FFFFFF;
   background-color: #2E7DF7;
@@ -812,9 +820,11 @@ nav ul li a {
   text-align: center;
   margin-bottom: 36px;
 }
-.btn-margin{
+
+.btn-margin {
   /* margin-top: 36px; */
 }
+
 .contact__btn {
   background: #FFFFFF;
   box-shadow: 0 6px 22px 0 rgba(0, 0, 0, 0.20);
@@ -837,27 +847,301 @@ nav ul li a {
 
 
 /* === === === === === === === */
-      /* Footer CSS */
+/* Footer CSS */
 /* === === === === === === === */
 
-.footer_section{
-  background-color: white;
-  margin-top: 2em;
-}
-.footer_logo{
-  height: 66px;
-  width: 66px;
-}
-.container .col-8 .text-right{
-  margin-top: 0;
-}
-.links{
-  text-decoration: none;
+.footer-area {
+  display: flex;
+  padding-top: 70px;
+  background: white;
+  color: #000000;
 }
 
-.links ul{
+.footer-area .container .row{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px; */
+}
+
+.footer_logo{
+  max-width: 66px;
+}
+
+#footer-logo{
+  margin-right: 400px;
+}
+
+#footLinks{
+  margin: 0;
+  padding: 0;
+}
+
+#newsletter{
+  margin-left: 114px;
+}
+/* .parent {
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+  }
+
+  .div1 { grid-area: 1 / 1 / 2 / 2; }
+  .div2 { grid-area: 1 / 3 / 2 / 4; }
+  .div3 { grid-area: 1 / 4 / 2 / 6; } */
+
+@media (max-width: 991px) {
+  .footer-area {
+    padding: 60px 0px;
+  }
+  #footer-logo{
+    margin-right: 0;
+  }
+  #newsletter{
+    display: block;
+    margin-left: 0;
+  }
+  #footLinks{
+    margin-left: 16px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .footer-area .single-footer-widget {
+    margin-bottom: 30px;
+  }
+  #footLinks{
+    margin: 16px 0 0 0;
+  }
+}
+
+.footer-area .single-footer-widget p {
+  color: #7b838a;
+}
+
+.footer-area .single-footer-widget h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+@media (max-width: 1024px) {
+  .footer-area .single-footer-widget h4 {
+    font-size: 20px;
+    color: #000;
+  }
+  .footer-area .single-footer-widget ul li{
+    list-style: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .footer-area .single-footer-widget h4 {
+    margin-bottom: 15px;
+  }
+}
+
+.footer-area .single-footer-widget ul{
+}
+
+.footer-area .single-footer-widget ul li {
+  margin-bottom: 16px;
   list-style: none;
 }
+
+#email-form{
+  width: auto;
+}
+
+.footer-area .single-footer-widget ul li a {
+  transition: all 300ms linear 0s;
+  color: #888888;
+}
+
+.footer-area .single-footer-widget ul li a:hover {
+  color: #f84b67;
+}
+
+.footer-area .single-footer-widget .form-wrap {
+  margin-top: 25px;
+}
+
+.footer-area .single-footer-widget .form-wrap .info {
+  color: #f84b67;
+}
+
+.footer-area .single-footer-widget input {
+  height: 40px;
+  border: 1px solid #eeeeee;
+  width: auto;
+  font-weight: 400;
+  background: #fff;
+  padding-left: 20px;
+  border-radius: 0;
+  font-size: 14px;
+  padding: 10px 22px;
+  border-radius: 25px;
+  color: #888888;
+  margin-right: -25px;
+  background-color: #F3F7FF;
+}
+
+.footer-area .single-footer-widget input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
+
+.footer-area .single-footer-widget input.placeholder {
+  font-size: 14px;
+  padding-left: 10px;
+  color: #888888;
+}
+
+.footer-area .single-footer-widget input:-moz-placeholder {
+  font-size: 14px;
+  padding-left: 10px;
+  color: #888888;
+}
+
+.footer-area .single-footer-widget input::-moz-placeholder {
+  font-size: 14px;
+  padding-left: 10px;
+  color: #888888;
+}
+
+.footer-area .single-footer-widget input::-webkit-input-placeholder {
+  font-size: 14px;
+  padding-left: 10px;
+  color: #888888;
+}
+
+.footer-area .single-footer-widget .click-btn {
+  border-radius: 24px;
+  padding: 6px 21px 4px 14px;
+  border: 0;
+  background: #f84b67;
+  color: #fff;
+  position: relative;
+  left: 0;
+  text-transform: capitalize;
+  z-index: 999;
+}
+
+.footer-area .single-footer-widget .click-btn i,
+.footer-area .single-footer-widget .click-btn span {
+  font-size: 18px;
+}
+
+.footer-area .single-footer-widget .click-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.footer-area .footer-address span {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.footer-area .footer-logo {
+  margin-top: 28px;
+  display: inline-block;
+}
+
+.footer-area .footer-bottom {
+  border-top: 1px solid #4c4f60;
+  margin-top: 51px;
+  padding: 20px 0;
+}
+
+@media (max-width: 991px) {
+  .footer-area .footer-bottom {
+    margin-top: 20px;
+  }
+}
+
+.footer-area .footer-bottom p {
+  color: #777777;
+}
+
+.footer-area .footer-bottom p a {
+  color: #f84b67;
+}
+
+.footer-area .footer-bottom .footer-social {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .footer-area .footer-bottom .footer-social {
+    text-align: left;
+    margin-top: 30px;
+  }
+}
+
+.footer-area .footer-bottom .footer-social a {
+  margin-left: 3px;
+  width: 32px;
+  color: #8f919c;
+  display: inline-grid;
+  text-align: center;
+  height: 32px;
+  align-content: center;
+  transition: all 300ms linear 0s;
+}
+
+.footer-area .footer-bottom .footer-social a:hover {
+  color: #f84b67;
+}
+
+.footer-area .footer-bottom .footer-social a i,
+.footer-area .footer-bottom .footer-social a span {
+  font-size: 14px;
+}
+
+@media (max-width: 991px) {
+  .header_area .navbar-collapse {
+    padding: 15px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .home_banner_area .banner_inner .banner_content span::after {
+    display: none;
+  }
+
+  .home_banner_area .banner_inner .banner_content h3 {
+    font-size: 33px;
+  }
+
+  .home_banner_area .banner_inner .banner_content h3 br {
+    display: none;
+  }
+
+  .home_banner_area .banner_inner .banner_content .main_btn {
+    margin-top: 14px;
+  }
+
+  .home_banner_area .banner_inner .banner_content span {
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+
+  .footer-area {
+    padding-top: 70px;
+  }
+
+  .footer-bottom {
+    margin-top: 35px;
+  }
+}
+
+/*---------------------------------------------------- */
+
+/*# sourceMappingURL=style.css.map */
 
 /* === === === === === === === */
 /* === === === === === === === */
