@@ -68,11 +68,13 @@ body {
 
 .regular {
   color: #FFFFFF;
+  box-shadow: 0 6px 22px 0 rgba(0, 0, 0, 0.2);
   background-color: #2E7DF7;
 }
 
 .light {
   background: #FFFFFF;
+  box-shadow: 0 6px 22px 0 rgba(0, 0, 0, 0.2);
   color: #1A67FA;
 }
 
@@ -322,11 +324,14 @@ nav ul li a {
 }
 
 .solution-area {
+  margin-top: 0;
   margin-bottom: 5em;
 }
-
+#solution-title{
+  margin-top: 66px;
+}
 .solution-area .container .row {
-  margin: auto;
+ margin: auto;
   text-align: center;
 }
 
@@ -336,8 +341,10 @@ nav ul li a {
   font-size: 46px;
   color: #000000;
   letter-spacing: 0.48px;
+  margin-top: -30px;
   text-align: center;
 }
+
 
 .solution-heading {
   font-size: 20px;
@@ -392,18 +399,20 @@ nav ul li a {
   width: 100%;
   display: -webkit-box;
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 88px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   justify-content: space-between;
 }
 
 .card__items {
-  max-width: 352px;
+  width: 352px;
+
 }
 
 .card {
   height: 453px;
-  margin-bottom: 1em;
+  margin-bottom: 24px;
+  box-shadow: 0 22px 66px 0 rgba(49, 69, 244, 0.1) !important;
 }
 
 .card__title {
@@ -428,20 +437,25 @@ nav ul li a {
 .card__title span {
   font-family: "Exo", sans-serif;
   font-weight: 600;
+  font-size: 30.8px;
+  font-stretch: normal;
+  font-style: normal;
   display: block;
   float: right;
-  margin: 1em auto;
+  margin: 22px 22px 25px 10px;
   text-align: left;
-  font-size: 30.8px;
-  color: #11223F;
-  line-height: 33px;
-  width: 50%;
+  width: 176px;
+  height: 88px;
+  line-height: 1.07em;
+  letter-spacing: normal;
+  color: #11223f;
+
 }
 
 .card__content {
   display: block;
   text-align: left;
-  margin: 26px 26px auto 26px;
+  margin: 27px 26px 30px 26px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 17.6px;
@@ -621,7 +635,7 @@ nav ul li a {
 /* Service Section */
 /* === === === === === === === === */
 .service__section {
-  margin-top: 2em;
+  margin-top: 90px;
   height: max-content;
 }
 
@@ -647,19 +661,12 @@ nav ul li a {
 }
 
 .service_cards {
-  /* width: 100%;
-  height: auto;
-  display: -webkit-box;
-  display: grid;
-  grid-template-columns: repeat(2, 247px) repeat(2, 227px);
-  grid-template-rows: repeat(2, 321px);
-  grid-column-gap: 30px;
-  grid-row-gap: 30px; */
+
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr 1fr;
-  grid-column-gap: 30px;
-  grid-row-gap: 10px;
+  grid-column-gap: 57px;
+  grid-row-gap: 36px;
   justify-items: stretch;
   align-items: stretch;
   padding: 1em;
@@ -811,11 +818,15 @@ nav ul li a {
     margin-bottom: 20px;
   }
   .single_card:nth-child(even){
-    width: 400px;
+    max-width: 400px;
   }
 
   .s__card {
-    max-width: 400 !important;
+    max-width: 400px !important;
+    margin-top: 80px;
+  }
+  .s__card:first-of-type{
+    margin-top: 0;
   }
 
   .s__card__title span {
@@ -825,8 +836,13 @@ nav ul li a {
   }
 
   .b__card {
-    max-width: 400px;
+    margin-top: 80px !important;
+    max-width: 100%;
     max-height: fit-content;
+  }
+  .b-image-resize{
+    width: 100%;
+    max-width:100%;
   }
 }
 
@@ -868,25 +884,29 @@ nav ul li a {
   width: 100%;
   display: -webkit-box;
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 88px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   justify-content: space-evenly;
 }
 
 .price__items {
-  max-width: 352px;
+  width: 352px;
 }
 
 .price {
+  width: 352px !important;
   height: 360px;
-  margin-bottom: 1em;
+  box-shadow: 0 22px 66px 0 rgba(49, 69, 244, 0.1);
+  background-color: #ffffff;
+  /* height: 360px;
+  margin-bottom: 1em; */
 }
 
 .price__title {
-  background-color: #F3F7FF;
+  width: 352px;
   height: 132px;
-  width: 100%;
-  padding: 20px 22px;
+  background-color: #f3f7ff;
+  padding: 19px 22px 25px 22px;
 }
 
 .title_center {
@@ -894,12 +914,15 @@ nav ul li a {
   font-weight: 600;
   display: block;
   padding: 31px 10px;
+  font-stretch: normal;
+  font-style: normal;
   text-align: center;
+  letter-spacing: normal;
   font-size: 30.8px;
   color: #11223F;
-  line-height: 33px;
-  height: 88px;
+  line-height: 1.07em;
   width: 308px;
+  height: 88px;
 }
 
 #ai {
@@ -948,6 +971,7 @@ nav ul li a {
   height: 50px;
   width: 100%;
   margin-top: 24px;
+
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -973,28 +997,25 @@ nav ul li a {
 }
 
 #contact__heading {
-  margin: 2em 0;
+  margin: 0 0;
 }
 
 #contact__heading h4 {
   margin-top: 1em;
   font-family: "Exo", sans-serif;
   font-weight: 600;
-  max-height: 120px;
+  height: 61px;
   font-size: 46px;
   color: #FFFFFF;
   letter-spacing: 0.48px;
   text-align: center;
+  margin-top: 114px;
   margin-bottom: 36px;
 }
 
-.btn-margin {
-  /* margin-top: 36px; */
-}
 
 .contact__btn {
   background: #FFFFFF;
-  box-shadow: 0 6px 22px 0 rgba(0, 0, 0, 0.20);
   border-radius: 4px;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
@@ -1005,9 +1026,18 @@ nav ul li a {
   letter-spacing: 2.54px;
   text-align: center;
   display: block;
-  margin-top: 2em;
+  margin-bottom: 96px;
 }
 
+@media (max-width:440px){
+  #contact__heading h4{
+    margin-top: 80px;
+    margin-bottom: 96px;
+  }
+  .contact__btn {
+    margin-top: 36px;
+  }
+}
 /* === === === === === === === */
 /* === === === === === === === */
 
@@ -1116,7 +1146,7 @@ nav ul li a {
   }
 }
 
-.footer-area .single-footer-widget ul {}
+
 
 .footer-area .single-footer-widget ul li {
   margin-bottom: 16px;
@@ -1927,7 +1957,6 @@ textarea {
     padding: 16px;
   }
 
-  nav ul li a {}
 
   .main_banner .banner_inner .container .row .box {
     margin-top: 3em;
