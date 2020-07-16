@@ -213,8 +213,7 @@ nav ul li a {
   position: relative;
   overflow: hidden;
   width: 100%;
-  min-height: 800px;
-  margin-bottom: 0em;
+  min-height: 650px;
 }
 
 
@@ -236,7 +235,7 @@ nav ul li a {
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
-  height: 400px;
+  height: 300px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -261,32 +260,41 @@ nav ul li a {
 
 
 .main_banner .banner_inner .banner_content h3 {
-  font-size: 46px;
   font-family: "Exo", sans-serif;
+  font-size: 46px;
   font-weight: 600;
-  margin-bottom: 30px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  color: #000000;
+  margin-bottom: 13px;
 }
 
 .main_banner .banner_inner .banner_content p {
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  line-height: 27px;
-  margin-bottom: 50px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.21px;
+  color: #474a4d;
 }
 
 
 /* Research Section Inside Main Banner */
 
 .research_banner {
-  width: 100%;
+  width: 100% !important;
   text-align: center;
   color: black;
   background: #F3F7FF;
+  margin-top: 30px;
 }
 
 .main_banner .research_banner .container .area-heading h1 {
-  font-size: 46px;
+  font-size: 40px;
   font-family: "Exo", sans-serif;
   font-weight: 600;
   margin-top: -50px;
@@ -325,23 +333,24 @@ nav ul li a {
 
 .solution-area {
   margin-top: 0;
-  margin-bottom: 5em;
+  margin-bottom: 70px;
 }
-#solution-title{
-  margin-top: 66px;
-}
-.solution-area .container .row {
- margin: auto;
+
+.solution-area .container-fluid .container .row {
+ margin: 0;
   text-align: center;
 }
 
-.solution-area .container .row .area-heading h1 {
+.solution-area .container-fluid hr{
+  width: 100%;
+}
+
+.solution-area .container-fluid .container .row .area-heading h1 {
   font-family: "Exo";
   font-weight: 600;
   font-size: 46px;
   color: #000000;
   letter-spacing: 0.48px;
-  margin-top: -30px;
   text-align: center;
 }
 
@@ -357,23 +366,28 @@ nav ul li a {
 }
 
 .solution-heading h4 {
-  text-align: left;
-  font-family: "Exo", sans-serif;
-  font-weight: 600;
+  font-family: Exo;
   font-size: 36px;
-  color: #000000;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
   letter-spacing: 0.38px;
+  color: #000000;
+  margin: 28px 0 9px 0;
+
 }
 
 
 .solution-heading h6 {
-  margin: 10px 0 0 0;
-  font-size: 20px;
-  color: #474A4D;
-  letter-spacing: 0.21px;
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  text-align: left;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.21px;
+  color: #474a4d;
 }
 
 /* .toolkits .row{
@@ -396,6 +410,7 @@ nav ul li a {
 } */
 
 .cards {
+  margin-left: -20px;
   width: 100%;
   display: -webkit-box;
   display: grid;
@@ -443,6 +458,7 @@ nav ul li a {
   display: block;
   float: right;
   margin: 22px 22px 25px 10px;
+  padding: 12px 5px;
   text-align: left;
   width: 176px;
   height: 88px;
@@ -529,7 +545,9 @@ nav ul li a {
   border-top-right-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
 }
-
+.engine__section{
+  margin-top: 33px;
+}
 .engine__container {
   display: flex;
   width: 100%;
@@ -557,6 +575,7 @@ nav ul li a {
 .engine__text__container {
   float: right;
   width: fit-content;
+  height: 101px;
 }
 
 .engine__title {
@@ -571,7 +590,7 @@ nav ul li a {
   font-family: "Exo", sans-serif;
   font-weight: 600;
   line-height: 33px;
-  padding: 15px 1em;
+  padding: 23px 60px 23px 40px;
 }
 
 
@@ -580,7 +599,7 @@ nav ul li a {
   color: #11223F;
   font-size: 17.6px;
   line-height: 33px;
-  padding: 12px 31px;
+  padding: 5px 31px;
   flex: 1 1 auto;
   /* padding: 1.5em; */
 }
@@ -639,11 +658,11 @@ nav ul li a {
   height: max-content;
 }
 
-.service__section .container {
+.service__section .container-fluid {
   background-color: #F3F7FF;
 }
 
-.service__section .container :last-child {
+.service__section .container-fluid :last-child {
   height: auto;
 }
 
@@ -655,8 +674,12 @@ nav ul li a {
   display: inline-block;
   font-family: "Exo", sans-serif;
   font-weight: 600;
-  font-size: 46px;
+  font-size: 38px;
   color: #000000;
+  text-align: center;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
   letter-spacing: 0.48px;
 }
 
@@ -683,7 +706,8 @@ nav ul li a {
   background-color: #F3F7FF;
 } */
 .single_card {
-  height: 321px;
+  height: 334px;
+  box-shadow: 0 22px 66px 0 rgba(150, 150, 150, 0.1);
 }
 
 .single_card:nth-child(even) {
@@ -691,16 +715,18 @@ nav ul li a {
 }
 
 .s__card {
-  height: 321px;
+  height: 334px;
   width: 493px;
+  max-width: 493px;
   background-color: white;
-  margin: 0;
+  padding: 0 !important;
 }
 
 .s__card__title {
   background-color: #e6eeff;
   height: 132px;
   width: 100%;
+  margin: -10px 0 0 0;
 
 }
 
@@ -739,6 +765,7 @@ nav ul li a {
   font-size: 17.6px;
   color: #11223F;
   line-height: 33px;
+  width: 100%;
   background-color: white;
 }
 
@@ -788,9 +815,10 @@ nav ul li a {
 
 .b-image-resize {
   display: block;
-  margin: 8px auto;
-  height: 224px;
-  width: 100%;
+  margin: 0 auto;
+  height: 232px;
+  width: 580px;
+
 }
 
 
@@ -812,18 +840,46 @@ nav ul li a {
   .service_cards {
     display: block;
   }
-
+  .single_card{
+    box-shadow: 0 22px 66px 0 rgba(150, 150, 150, 0.1);
+    margin-bottom: 50px;
+  }
   .single_card:nth-child(odd){
-    max-width: 400px;
-    margin-bottom: 20px;
+    max-width: 400px !important;
+
+
   }
   .single_card:nth-child(even){
-    max-width: 400px;
+    max-width: 400px !important;
+    width: 100%;
   }
 
-  .s__card {
-    max-width: 400px !important;
+  .single_card:nth-of-type(3){
     margin-top: 80px;
+  }
+  .s__card {
+    max-width: 350px;
+    width: 300px;
+    margin-top: 80px;
+  }
+  .s__card__title {
+    max-width: 350px;
+    height: 100px;
+  background-color: #e6eeff;
+  }
+  .s__title__image {
+    max-width: 60px;
+    height: 100px;
+  }
+  .s__card__title span {
+    width: 80%;
+
+    line-height: 30px;
+    font-size: 16px;
+  }
+  .s-image-resize{
+    max-width: 50px;
+    width: 50px;
   }
   .s__card:first-of-type{
     margin-top: 0;
@@ -834,16 +890,42 @@ nav ul li a {
     padding-left: 10px;
     margin: 1em auto;
   }
-
+  .s__card__content{
+    width: 320px;
+  }
+  #s2{
+    width: 80%;
+  }
   .b__card {
     margin-top: 80px !important;
-    max-width: 100%;
+    max-width: 330px;
+    width: 100%;
     max-height: fit-content;
+
   }
   .b-image-resize{
-    width: 100%;
-    max-width:100%;
+    max-width:350px;
+    width: 320px;
   }
+
+
+  .engine__container{
+    display: block;
+    height: auto;
+  }
+
+  .engine__image__container{
+    display: flex;
+    float: none;
+    max-width: 100%;
+    width: 332px;
+    justify-content: center;
+    align-items: center;
+  }
+  .engine__text__container{
+    height: fit-content;
+  }
+
 }
 
 
@@ -858,13 +940,16 @@ nav ul li a {
 }
 
 
-.pricing__section .container {
+.pricing__section .container-fluid {
   background-color: white;
 }
 
-.pricing__section .container .row {
+.pricing__section .container-fluid .container .row {
   margin: auto;
   text-align: center;
+}
+.pricing__section .container-fluid .container .row:nth-of-type(2){
+  margin-top: 54px;
 }
 
 #pricing__heading {
@@ -875,12 +960,13 @@ nav ul li a {
   display: inline-block;
   font-family: "Exo", sans-serif;
   font-weight: 600;
-  font-size: 46px;
+  font-size: 38px;
   color: #000000;
   letter-spacing: 0.48px;
 }
 
 .prices {
+  margin-left: -30px;
   width: 100%;
   display: -webkit-box;
   display: grid;
@@ -889,9 +975,13 @@ nav ul li a {
   justify-content: space-evenly;
 }
 
+
 .price__items {
   width: 352px;
+  padding: 10px;
 }
+
+
 
 .price {
   width: 352px !important;
@@ -918,7 +1008,7 @@ nav ul li a {
   font-style: normal;
   text-align: center;
   letter-spacing: normal;
-  font-size: 30.8px;
+  font-size: 29px;
   color: #11223F;
   line-height: 1.07em;
   width: 308px;
@@ -942,7 +1032,8 @@ nav ul li a {
 .price__content {
   display: block;
   text-align: center;
-  margin: 26px 26px auto 26px;
+  /* padding: 26px 26px auto 26px; */
+  /* margin: 26px 26px auto 26px; */
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 17.6px;
@@ -951,13 +1042,15 @@ nav ul li a {
   line-height: 33px;
 }
 
+.price__content .price_details{
+  margin: 18px 26px 24px 26px;
+}
 .price_tag {
   font-family: "Exo", sans-serif;
   font-weight: 600;
   font-size: 30.8px;
   line-height: 33px;
   text-align: center;
-  margin: 1em 0 0.5em 0;
 }
 
 .price__btn {
@@ -969,7 +1062,7 @@ nav ul li a {
   letter-spacing: 2.54px;
   text-align: center;
   height: 50px;
-  width: 100%;
+  width: 352px;
   margin-top: 24px;
 
   -webkit-border-radius: 4px;
@@ -1037,6 +1130,7 @@ nav ul li a {
   .contact__btn {
     margin-top: 36px;
   }
+
 }
 /* === === === === === === === */
 /* === === === === === === === */
@@ -1593,9 +1687,8 @@ hr {
   border: 0;
   clear: both;
   display: block;
-  width: 100%;
+  min-width: 100%;
   background-color: #DDDDDD;
-
   height: 1px;
 }
 
@@ -1832,6 +1925,7 @@ textarea {
   text-align: center;
   margin-top: 5em;
 }
+
 
 .area-heading h3 {
   font-size: 30px;
