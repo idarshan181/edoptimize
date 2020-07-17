@@ -189,7 +189,7 @@ nav ul li a {
 .main_banner {
   position: relative;
   z-index: 1;
-  margin-top: 50px;
+  margin-top: 96px;
 }
 
 
@@ -615,6 +615,7 @@ nav ul li a {
   text-align: center;
   height: 50px;
   width: 252px;
+  max-width: 300px;
   margin-top: 30px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -692,9 +693,12 @@ nav ul li a {
   grid-row-gap: 36px;
   justify-items: stretch;
   align-items: stretch;
-  padding: 1em;
+  margin: 43px 0 70px 0;
 }
 
+#service_hr{
+  margin-top: 28px;
+}
 
 
 /* .div1 {
@@ -891,21 +895,18 @@ nav ul li a {
     margin: 1em auto;
   }
   .s__card__content{
-    width: 320px;
-  }
-  #s2{
-    width: 80%;
+    width: 350px;
   }
   .b__card {
     margin-top: 80px !important;
-    max-width: 330px;
-    width: 100%;
+    max-width: 350px;
+    width: 350px;
     max-height: fit-content;
 
   }
   .b-image-resize{
     max-width:350px;
-    width: 320px;
+    width: 350px;
   }
 
 
@@ -914,16 +915,30 @@ nav ul li a {
     height: auto;
   }
 
+
+
   .engine__image__container{
-    display: flex;
+    display: block;
     float: none;
     max-width: 100%;
-    width: 332px;
+    width: 350px;
     justify-content: center;
     align-items: center;
   }
   .engine__text__container{
     height: fit-content;
+  }
+
+  .engine__image{
+    justify-content: center;
+    object-fit: fill;
+    max-width: 250px;
+  }
+
+  .engine__btn{
+    display: none;
+    width: 350px !important;
+    max-width: 400px;
   }
 
 }
@@ -1143,7 +1158,7 @@ nav ul li a {
 
 .footer-area {
   display: flex;
-  padding-top: 70px;
+  padding:70px 0 50px 0;
   background: white;
   color: #000000;
 }
