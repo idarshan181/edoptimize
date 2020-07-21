@@ -235,7 +235,7 @@ nav ul li a {
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
-  height: 300px;
+  height: 400px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -279,6 +279,7 @@ nav ul li a {
   font-style: normal;
   line-height: normal;
   letter-spacing: 0.21px;
+  margin-bottom:41px ;
   color: #474a4d;
 }
 
@@ -575,7 +576,7 @@ nav ul li a {
 .engine__text__container {
   float: right;
   width: fit-content;
-  height: 101px;
+  height: 150px;
 }
 
 .engine__title {
@@ -591,17 +592,22 @@ nav ul li a {
   font-weight: 600;
   line-height: 33px;
   padding: 23px 60px 23px 40px;
+
 }
 
 
 .engine__text {
-  font-weight: 400;
-  color: #11223F;
-  font-size: 17.6px;
-  line-height: 33px;
-  padding: 5px 31px;
   flex: 1 1 auto;
-  /* padding: 1.5em; */
+  font-family: "Open Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.87em;
+  letter-spacing: normal;
+  color: #11223f;
+  padding: 20px 45px 30px 40px !important;
+  margin: 0;
 }
 
 .engine__btn {
@@ -769,8 +775,12 @@ nav ul li a {
   font-size: 17.6px;
   color: #11223F;
   line-height: 33px;
+  height: 203px !important;
   width: 100%;
   background-color: white;
+}
+#eudcationModel{
+  padding: 1em 2em;
 }
 
 .b__card {
@@ -785,6 +795,7 @@ nav ul li a {
   background: #e6eeff;
   min-height: 100px;
   padding: 20px;
+  max-height: 100px;
 }
 
 .b__title__website {
@@ -799,16 +810,15 @@ nav ul li a {
   background-color: #e6eeff;
 }
 
-.b__title {
+.blog__title{
   font-family: "Open Sans",sans-serif;
   font-weight: 600;
   font-size: 16px;
   color: #11223F;
   display: block;
-  padding: 0 12px;
-  margin: 0;
+  padding: 0;
+  margin: 1em 0;
   line-height: 33px;
-  margin-top: -20px;
   background-color: #e6eeff;
 }
 
@@ -841,6 +851,9 @@ nav ul li a {
 } */
 
 @media (max-width:440px) {
+  .image-box img{
+    height: 280px;
+  }
   .service_cards {
     display: block;
   }
@@ -896,6 +909,8 @@ nav ul li a {
   }
   .s__card__content{
     width: 350px;
+    height: 250px !important;
+
   }
   .b__card {
     margin-top: 80px !important;
@@ -915,6 +930,9 @@ nav ul li a {
     height: auto;
   }
 
+  .engine__section{
+    margin-left: 10px;
+  }
 
 
   .engine__image__container{
@@ -1000,7 +1018,7 @@ nav ul li a {
 
 .price {
   width: 352px !important;
-  height: 360px;
+  height: 400px;
   box-shadow: 0 22px 66px 0 rgba(49, 69, 244, 0.1);
   background-color: #ffffff;
   /* height: 360px;
@@ -1047,18 +1065,19 @@ nav ul li a {
 .price__content {
   display: block;
   text-align: center;
-  /* padding: 26px 26px auto 26px; */
-  /* margin: 26px 26px auto 26px; */
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 17.6px;
   height: 228px;
   color: #11223F;
   line-height: 33px;
+  margin: 0;
+  padding: 0;
 }
 
 .price__content .price_details{
   margin: 18px 26px 24px 26px;
+  height: 132px;
 }
 .price_tag {
   font-family: "Exo", sans-serif;
